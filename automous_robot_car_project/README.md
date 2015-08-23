@@ -1,10 +1,19 @@
-# Jims TCT Robot Code
+# LeRoy's automous robot car - GPS 
 
-Move toward the light!
+This is a semi-complexe robotic car, it uses GPS, a compass, and some other sensors to get to a waypoint. 
 
 ## Installation
 
-TODO: Describe the installation process
+Required Libraries:
+NewPing.h
+Adafruit_Sensor
+Adafruit_HMC5883_U.h
+waypointclass.h
+softwareserial.h
+math.h
+moving_average.h
+servo.h
+TinyGPS.h
 
 ## Usage
 
@@ -20,7 +29,7 @@ TODO: Write usage instructions
 
 ## Credits
 
-Jim McCrary
+LeRoy Miller
 
 ## License
 
